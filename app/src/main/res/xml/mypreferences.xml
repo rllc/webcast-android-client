@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Webcast Server URL" >
+        <EditTextPreference
+            android:title="@string/WEBCAST_HOST_URL_KEY"
+            android:defaultValue="http://host:port/application"
+            android:key="@string/WEBCAST_HOST_URL_KEY"/>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="Authentication" >
+        <EditTextPreference
+            android:title="@string/WEBCAST_USERNAME"
+            android:defaultValue="username"
+            android:key="@string/WEBCAST_USERNAME"/>
+        <EditTextPreference
+            android:title="@string/WEBCAST_PASSWORD"
+            android:defaultValue="password"
+            android:key="@string/WEBCAST_PASSWORD"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
