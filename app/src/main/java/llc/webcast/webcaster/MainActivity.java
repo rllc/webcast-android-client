@@ -37,7 +37,7 @@ public class MainActivity extends ActionBarActivity {
     private static final int RESULT_SETTINGS = 1;
     String TAG = "llc.webcast.webcaster";
 
-    private final String DEFAULT_WEB_URL = "http://192.168.1.188:8080/webcast";
+    private final String DEFAULT_WEB_URL = "http://localhost/webcast";
     private final String DEFAULT_USERNAME = "username";
     private final String DEFAULT_PASSWORD = "password";
 
@@ -48,8 +48,8 @@ public class MainActivity extends ActionBarActivity {
 
     // preferences
     private String myHost = DEFAULT_WEB_URL;
-    private String myUsername = "username";
-    private String myPassword = "password";
+    private String myUsername = DEFAULT_USERNAME;
+    private String myPassword = DEFAULT_PASSWORD;
 
     private ApplicationState applicationState = ApplicationState.STOPPED;
 
